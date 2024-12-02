@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faYoutube, faInstagram, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
@@ -26,33 +28,33 @@ const Footer = () => {
             <h3 className="text-2xl font-bold leading-tight mb-2">Follow Us</h3>
             <ul className="list-none mb-2 flex justify-start">
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fab fa-facebook-f"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-blue-600">
+                  <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fab fa-youtube"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-red-600">
+                  <FontAwesomeIcon icon={faYoutube} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fab fa-instagram"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-pink-600">
+                  <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fas fa-envelope"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-blue-400">
+                  <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fab fa-linkedin-in"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-green-600">
+                  <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700">
-                  <i className="fab fa-whatsapp"></i>
+                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-red-500">
+                  <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>
             </ul>

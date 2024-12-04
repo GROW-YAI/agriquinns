@@ -1,7 +1,7 @@
 import React from 'react';
 import fertilizerBags from '../assets/images/fertilizerbag.jpg';
-import fertilizerImage2 from '../assets/images/fertilizer2.jpg';
-import fertilizerImage3 from '../assets/images/fertilizer3.jpg';
+import fertilizerImage2 from '../assets/images/farmer3.jpg';
+import fertilizerImage3 from '../assets/images/farmer4.jpg';
 
 const Products = () => {
     return (

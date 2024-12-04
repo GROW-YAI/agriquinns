@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/images/coconut.jpg';
+import heroImage from '../assets/images/heroimg2.jpg';
 
 const Hero = () => {
   return (

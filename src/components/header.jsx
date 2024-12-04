@@ -6,10 +6,10 @@ const Header = () => {
     <header>
       <nav class="fixed top-0 left-0 w-full z-10 flex justify-between py-4 px-10 bg-gray-200 text-green-700">
         {/* <a href="#" class=" hover:text-black font-extrabold text-4xl font-serif">AGRIQUINNS</a> */}
-        {<img src={logo} alt="Agriquinns Logo"  class="w-20 h-16 mr-4  "></img>
+        {<img src={logo} alt="Agriquinns Logo"  class="w-36 h-16 mr-4  "></img>
      }
 
-        <ul class="align-middle flex space-x-8 p-4 text-lg">
+        <ul class="align-middle flex space-x-8 p-4 text-xl">
         <li><a href="#" class="hover:text-black font-bold">About Us</a></li>
     
 

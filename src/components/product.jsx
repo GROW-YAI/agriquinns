@@ -1,5 +1,5 @@
 import React from 'react';
-import fertilizerBags from '../assets/images/fertilizerbag.jpg';
+import fertilizerBags from '../assets/images/agricocopeat.jpg';
 import fertilizerImage2 from '../assets/images/farmer3.jpg';
 import fertilizerImage3 from '../assets/images/farmer4.jpg';
 
@@ -13,7 +13,7 @@ const Products = () => {
             <img src={fertilizerImage2} alt="Fertilizer Image 2" className="w-full md:w-1/2 xl:w-1/3 p-4" />
             <img src={fertilizerImage3} alt="Fertilizer Image 3" className="w-full md:w-1/2 xl:w-1/3 p-4" />
           </div>
-          <p className="text-lg leading-relaxed mb-4">Our fertilizers are made from coconut shells, which are rich in nutrients.</p>
+          <p className="text-lg leading-relaxed mb-4">Our fertilizers are made from coconut husk, which are rich in nutrients.</p>
           <ul className="list-disc pl-4 mb-4">
             <li className="text-lg leading-relaxed mb-2">High-quality fertilizers</li>
             <li className="text-lg leading-relaxed mb-2">Eco-friendly and sustainable</li>

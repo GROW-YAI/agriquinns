@@ -43,6 +43,14 @@ const Header = () => {
       <nav className="fixed top-0 left-0 w-full z-10 flex justify-between py-4 px-10 bg-gray-200 text-green-700">
         <img src={logo} alt="Agriquinns Logo" className="w-36 h-16 mr-4"></img>
         <ul className="align-middle flex space-x-8 p-4 text-xl">
+        {/* <li>
+            <Link to="/about" className="hover:text-black font-bold">
+              Home
+            </Link>
+          </li> */}
+          <li>
+          <Link to="/" className="hover:text-black font-bold"> Home </Link>
+         </li>
           <li>
             <Link to="/about" className="hover:text-black font-bold">
               About Us

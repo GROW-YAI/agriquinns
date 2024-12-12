@@ -12,7 +12,7 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img src={johnDoe} alt="John Doe" className="w-16 h-16 rounded-full mr-4 border-2 border-gray-300" />
               <div>
-                <h3 className="text-2xl font-bold text-gray-600">John Doe</h3>
+                <h3 className="text-2xl font-bold text-gray-600">Kwesi Amoah</h3>
                 <p className="text-lg text-gray-500">Farmer</p>
               </div>
             </div>
@@ -27,7 +27,7 @@ const Testimonials = () => {
             <div className="flex items-center mb-4">
               <img src={janeSmith} alt="Jane Smith" className="w-16 h-16 rounded-full mr-4 border-2 border-gray-300" />
               <div>
-                <h3 className="text-2xl font-bold text-gray-600">Jane Smith</h3>
+                <h3 className="text-2xl font-bold text-gray-600">Confort Mensah</h3>
                 <p className="text-lg text-gray-500">Gardener</p>
               </div>
             </div>

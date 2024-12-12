@@ -27,21 +27,21 @@
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Hero from './components/hero';
-import Header from './components/header';
-import Footer from './components/footer';
+import Hero from './components/Hero';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import About from './components/ourteam';
-import Products from './components/product';
-import Testimonials from './components/testimonials';
-import Blog from './components/blog';
-import Contact from './components/contactus';
+import Products from './components/Product';
+import Testimonials from './components/Testimonials';
+import Blog from './components/Blog';
+import Contact from './components/ContactUs';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/home" element={<Hero />} />
+        <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/testimonials" element={<Testimonials />} />

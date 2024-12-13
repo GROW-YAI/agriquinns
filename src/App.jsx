@@ -7,8 +7,8 @@ import Footer from './components/footer';
 import About from './components/ourteam';
 import Products from './components/product';
 import Testimonials from './components/testimonials';
-import Blog from './components/Blog';
-import Contact from './components/contactUs';
+import Blog from './components/blog';
+import Contact from './components/contactus';
 
 function App() {
   return (

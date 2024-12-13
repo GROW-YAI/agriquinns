@@ -1,40 +1,14 @@
-// import React from 'react';
-// import Header from './components/header';
-// import Hero from './components/hero';
-// import Products from './components/product';
-// import Testimonials from './components/testimonials';
-// import Footer from './components/footer';
-// import OurTeam from './components/ourteam';
-// import Blog from './components/blog';
-// import ContactUs from './components/contactus';
-
-// const App = () => {
-//   return (
-//     <div>
-//       <Header />
-//       <Hero />
-//       <Products />
-//       <Testimonials />
-//       <OurTeam />
-//       <Blog/>
-//       <ContactUs/>
-//       <Footer />
-//     </div>
-//   );
-// };
-
-// export default App;
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Hero from './components/hero';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/header';
+import Footer from './components/footer';
 import About from './components/ourteam';
-import Products from './components/Product';
-import Testimonials from './components/Testimonials';
+import Products from './components/product';
+import Testimonials from './components/testimonials';
 import Blog from './components/Blog';
-import Contact from './components/ContactUs';
+import Contact from './components/contactUs';
 
 function App() {
   return (

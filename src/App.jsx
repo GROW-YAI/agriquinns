@@ -27,7 +27,7 @@
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Hero from './components/Hero';
+import Hero from './components/hero';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/ourteam';

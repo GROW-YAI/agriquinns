@@ -1,7 +1,6 @@
 
 import React from 'react';
 import heroImage from '../assets/images/heroimg2.jpg';
-// import heroVideo from '../assets/videos/herovideo.mp4';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -24,16 +23,7 @@ const Hero = () => {
           Learn More About Our Sustainable Fertilizers
         </Link>
       </div>
-      {/* <div className="flex-1">
-        <video
-          autoPlay
-          loop
-          muted
-          className="w-full h-full object-cover object-center"
-        >
-          <source src={heroVideo} type="video/mp4" />
-        </video>
-      </div> */}
+     
 
       </div>
     

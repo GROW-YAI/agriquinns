@@ -5,7 +5,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-4">
       <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
         <div className="flex flex-wrap justify-center mb-4">
           <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">

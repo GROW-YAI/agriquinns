@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faYoutube, faInstagram, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
         <div className="flex flex-wrap justify-center mb-4">
           <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
-            <p className="text-lg leading-relaxed mb-2">&copy; 2024 Agriquinns. All rights reserved.</p>
+            <p className="text-lg leading-relaxed mb-2">&copy; Agriquinns, Imparting lives through Agriculture.</p>
           </div>
           <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
             <ul className="list-none mb-2">
@@ -60,9 +61,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <hr className="border-t-2 border-green-700 my-4" />
+        <p className="text-center text-lg leading-relaxed mb-2 text-green-700">&copy; 2024 Agriquinns. All rights reserved.</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+

@@ -14,7 +14,7 @@ const Hero = () => {
             Welcome to Agriquinns
           </h1>
           <p className="text-3xl leading-relaxed mb-8 text-bold">
-            Impacting Lives Through Agriculture
+            Imparting Lives Through Agriculture
           </p>
           <Link
             to="/about"
@@ -30,3 +30,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

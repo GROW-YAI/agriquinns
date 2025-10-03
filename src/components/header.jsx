@@ -130,7 +130,7 @@ const Header = () => {
           className={`hidden md:flex md:space-x-8 p-4 text-lg md:text-xl lg:text-2xl xl:text-3xl`}
         >
           <li className="mb-4 md:mb-0">
-            <Link to="/" className="hover:text-black font-bold"> Home </Link>
+            <Link to="/" className="hover:text-black font-bold" > Home </Link>
           </li>
           <li className="mb-4 md:mb-0">
             <Link to="/about" className="hover:text-black font-bold"> About Us </Link>
@@ -152,22 +152,22 @@ const Header = () => {
           className={`flex flex-col items-center md:hidden ${menuOpen ? 'block' : 'hidden'}`}
         >
           <li className="mb-4">
-            <Link to="/" className="hover:text-black font-bold"> Home </Link>
+            <Link to="/" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> Home </Link>
           </li>
           <li className="mb-4">
-            <Link to="/about" className="hover:text-black font-bold"> About Us </Link>
+            <Link to="/about" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> About Us </Link>
           </li>
           <li className="mb-4">
-            <Link to="/products" className="hover:text-black font-bold"> Products </Link>
+            <Link to="/products" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> Products </Link>
           </li>
           <li className="mb-4">
-            <Link to="/testimonials" className="hover:text-black font-bold"> Testimonials </Link>
+            <Link to="/testimonials" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> Testimonials </Link>
           </li>
           <li className="mb-4">
-            <Link to="/blog" className="hover:text-black font-bold"> Blog </Link>
+            <Link to="/blog" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> Blog </Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-black font-bold"> Contact Us </Link>
+            <Link to="/contact" className="hover:text-black font-bold" onClick={() => setMenuOpen(!menuOpen)}> Contact Us </Link>
           </li>
         </ul>
       </nav>

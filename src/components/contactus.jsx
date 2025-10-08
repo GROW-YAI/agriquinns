@@ -70,6 +70,8 @@
 
 import React, { useState } from 'react';
 import contactImage from '../assets/images/contactimg.jpg';
+import contactPhoto from '../assets/images/pic1.jpg';
+
 
 const ContactUs = () => {
   const [name, setName] = useState('');
@@ -92,7 +94,7 @@ const ContactUs = () => {
         <div className="flex justify-center mb-4 md:mb-0">
           <div className="w-full md:w-1/2 xl:w-1/2 mr-4 md:mr-8 lg:mr-12 xl:mr-16">
             <img
-              src={contactImage}
+              src={contactPhoto}
               alt="Contact Image"
               className="w-full h-full object-cover object-center rounded-lg shadow-lg"
             />

@@ -2,6 +2,10 @@ import React from 'react';
 import fertilizerBags from '../assets/images/agricocopeat.jpg';
 import fertilizerImage2 from '../assets/images/farmer3.jpg';
 import fertilizerImage3 from '../assets/images/farmer4.jpg';
+import farmLady from '../assets/images/pic7.jpg';
+import productShow from '../assets/images/pic5.jpg';
+
+
 
 const Products = () => {
     return (
@@ -10,8 +14,8 @@ const Products = () => {
           <h2 className="text-4xl font-bold leading-tight text-green-700 mb-4">Our Product</h2>
           <div className="flex flex-wrap justify-center mb-4">
             <img src={fertilizerBags} alt="Fertilizer Bags" className="w-full md:w-1/2 xl:w-1/3 p-4" />
-            <img src={fertilizerImage2} alt="Fertilizer Image 2" className="w-full md:w-1/2 xl:w-1/3 p-4" />
-            <img src={fertilizerImage3} alt="Fertilizer Image 3" className="w-full md:w-1/2 xl:w-1/3 p-4" />
+            <img src={farmLady} alt="Fertilizer Image 2" className="w-full md:w-1/2 xl:w-1/3 p-4" />
+            <img src={productShow} alt="Fertilizer Image 3" className="w-full md:w-1/2 xl:w-1/3 p-4" />
           </div>
           <p className="text-lg leading-relaxed mb-4">Introducing Agriquinns Fertilizer, a revolutionary, eco-friendly solution for sustainable farming practices. Our innovative fertilizers are carefully crafted from coconut husk, a rich source of essential nutrients.
 

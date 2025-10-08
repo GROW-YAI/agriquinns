@@ -45,6 +45,10 @@ import React, { useState } from 'react';
 import blogpost1 from '../assets/images/1hero.jpg';
 import blogpost2 from '../assets/images/2blog.jpg';
 import blogpost3 from '../assets/images/3blog.jpg';
+import blogPhoto1 from '../assets/images/pic3.jpg';
+import blogPhoto2 from '../assets/images/pic2.jpg';
+
+
 
 const Blog = () => {
   const [showMore1, setShowMore1] = useState(false);
@@ -58,7 +62,7 @@ const Blog = () => {
         <p className="text-lg font-bold text-gray-600 py-10">Stay up-to-date with the latest news and trends in agriculture.</p>
         <div className="blog-posts">
           <div className="blog-post mb-12">
-            <img src={blogpost1} alt="Blog Post 1" className="w-full max-h-96 object-cover object-center  rounded-lg shadow-lg mb-4" />
+            <img src={blogPhoto1} alt="Blog Post 1" className="w-full max-h-96 object-cover object-center  rounded-lg shadow-lg mb-4" />
             <h3 className="text-lg font-bold text-green-700">Women Cultivating Change: Empowering Women in Agriculture</h3>
             <p className="text-sm font-bold text-gray-600">March 11, 2024</p>
             <p className="text-lg text-gray-600 mt-2">
@@ -90,7 +94,7 @@ At Agriquinns, we believe that empowering women in agriculture is crucial for cu
             </button>
           </div>
           <div className="blog-post mb-12">
-            <img src={blogpost2} alt="Blog Post 2" className="w-full max-h-96 object-cover object-center mb-4 rounded-lg shadow-lg" />
+            <img src={blogPhoto2} alt="Blog Post 2" className="w-full max-h-96 object-cover object-center mb-4 rounded-lg shadow-lg" />
             <h3 className="text-lg font-bold text-green-700">Embracing Sustainability: A Deep Dive into Sustainable Farming Practices</h3>
             <p className="text-lg font-bold text-gray-600">March 11, 2024</p>
             <p className="text-lg text-gray-600 mt-2">

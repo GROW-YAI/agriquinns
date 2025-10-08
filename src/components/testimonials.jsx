@@ -2,6 +2,9 @@ import React from 'react';
 import johnDoe from '../assets/images/johndoe.jpg';
 import janeSmith from '../assets/images/janedoe.jpg';
 import PlaceholderImage from '../assets/images/4hero.jpg';
+import heroImage from '../assets/images/pic4.jpg';
+
+
 const Testimonials = () => {
   return (
     <section id="testimonials" className="py-12 bg-gray-100">
@@ -9,7 +12,7 @@ const Testimonials = () => {
         <h2 className="text-2xl font-bold leading-tight text-green-700 mb-4 text-start">What Our Customers Say</h2>
         <div className="flex flex-wrap justify-center">
           <div className="w-full lg:w-1/3 xl:w-1/3 mb-4 lg:mb-0">
-            <img src={PlaceholderImage} alt="Placeholder Image" className="w-full h-full object-cover object-center rounded-lg shadow-lg" />
+            <img src={heroImage} alt="Placeholder Image" className="w-full h-full object-cover object-center rounded-lg shadow-lg" />
           </div>
           <div className="w-full lg:w-2/3 xl:w-2/3 pl-4 lg:pl-8 xl:pl-12">
             <div className="testimonial bg-white p-4 md:p-6 lg:p-8 xl:p-10 shadow-2xl rounded-3xl mb-8">

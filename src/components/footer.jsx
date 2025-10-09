@@ -29,23 +29,24 @@ const Footer = () => {
             <h3 className="text-2xl font-bold leading-tight mb-2">Follow Us</h3>
             <ul className="list-none mb-2 flex justify-start">
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-blue-600">
+                <a href="https://www.facebook.com/profile.php?id=61556224264505&mibextid=sCpJLy" target="_blank" className="text-lg leading-relaxed hover:text-green-700 text-blue-600">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
-              <li className="mr-4">
+              {/* <li className="mr-4">
                 <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-red-600">
                   <FontAwesomeIcon icon={faYoutube} />
                 </a>
-              </li>
+              </li> */}
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-pink-600">
+                <a href="https://www.instagram.com/agriquinns_?igsh=MTllcTI5YTZjZTJ5Yg%3D%3D&utm_source=qr" target="_blank" className="text-lg leading-relaxed hover:text-green-700 text-pink-600">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-blue-400">
+                <a href="https://www.linkedin.com/company/agriquinns-ghana/" target="_blank" className="text-lg leading-relaxed hover:text-green-700 text-blue-400">
                   <FontAwesomeIcon icon={faLinkedinIn} />
+                  
                 </a>
               </li>
               <li className="mr-4">
@@ -54,7 +55,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mr-4">
-                <a href="#" className="text-lg leading-relaxed hover:text-green-700 text-red-500">
+                <a href="mailto:agriquinns@gmail.com" target="_blank" className="text-lg leading-relaxed hover:text-green-700 text-red-500">
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
               </li>

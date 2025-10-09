@@ -100,11 +100,11 @@ At Agriquinns, we believe that empowering women in agriculture is crucial for cu
             <p className="text-lg text-gray-600 mt-2">
               {showMore2 ? (
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                 Sustainable farming is a modern approach to agriculture that balances food production with environmental preservation and community well-being. It focuses on protecting soil health, conserving water, promoting biodiversity, and reducing chemical use through eco-friendly methods like crop rotation, composting, and natural pest control. Beyond the environment, it also values fair labor and local empowerment. As the world faces growing food demands, sustainable farming offers a path to nourish people without depleting natural resources—cultivating not just crops, but a healthier and more resilient future for all.
                 </span>
               ) : (
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.
+                  Sustainable farming is a modern approach to agriculture that balances food production with environmental preservation and community well-being. It focuses on protecting soil health, conserving water, promoting biodiversity, and reducing chemical use through eco-friendly methods like crop rotation, composting, and natural pest control. Beyond the environment, it also values fair labor and local empowerment. As the world faces growing food demands, sustainable farming offers a path to nourish people without depleting natural resources hence cultivating not just crops, but a healthier and more resilient future for all.
                 </span>
               )}
             </p>
@@ -122,11 +122,11 @@ At Agriquinns, we believe that empowering women in agriculture is crucial for cu
             <p className="text-lg text-gray-600 mt-2">
               {showMore3 ? (
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatisdapibus posuere velit aliquet.
+                  Precision farming is transforming agriculture through the use of advanced technologies like GPS mapping, sensors, drones, and data analytics to make farming more efficient and sustainable. By providing farmers with real-time insights into soil conditions, crop health, and weather patterns, it enables precise decision-making—reducing waste, conserving resources, and maximizing yields. This innovative approach ensures that every seed, drop of water, and unit of fertilizer is used effectively. Ultimately, precision farming is not just improving productivity—it’s redefining the future of agriculture through smarter, data-driven practices.
             </span>
           ) : (
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.
+              Precision farming is transforming agriculture through the use of advanced technologies like GPS mapping, sensors, drones, and data analytics to make farming more efficient and sustainable. By providing farmers with real-time insights into soil conditions, crop health, and weather patterns, it enables precise decision-making thus reducing waste, conserving resources, and maximizing yields. This innovative approach ensures that every seed, drop of water, and unit of fertilizer is used effectively. Ultimately, precision farming is not only improving productivity but also redefining the future of agriculture through smarter, data-driven practices.
             </span>
           )}
         </p>

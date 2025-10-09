@@ -6,13 +6,13 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-4">
-      <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
+    <footer className="bg-gray-900 text-white">
+      <div className="container mx-auto lg:p-12 xl:p-24">
         <div className="flex flex-wrap justify-center mb-4">
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
+          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10 pt-2">
             <p className="text-lg leading-relaxed mb-2">Agriquinns, Imparting lives through Agriculture.</p>
           </div>
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
+          {/* <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
             <ul className="list-none mb-2">
               <li className="mb-2">
                 <a href="#" className="text-lg leading-relaxed hover:text-green-700">Terms and Conditions</a>
@@ -24,10 +24,10 @@ const Footer = () => {
                 <a href="#" className="text-lg leading-relaxed hover:text-green-700">Contact Us</a>
               </li>
             </ul>
-          </div>
-          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10">
-            <h3 className="text-2xl font-bold leading-tight mb-2">Follow Us</h3>
-            <ul className="list-none mb-2 flex justify-start">
+          </div> */}
+          <div className="w-full md:w-1/2 xl:w-1/3 mb-4 md:mb-6 lg:mb-8 xl:mb-10 md:text-right">
+            <h3 className="text-2xl font-bold leading-tight mb-2 md:mr-12">Follow Us</h3>
+            <ul className="list-none flex md:justify-end ">
               <li className="mr-4">
                 <a href="https://www.facebook.com/profile.php?id=61556224264505&mibextid=sCpJLy" target="_blank" className="text-lg leading-relaxed hover:text-green-700 text-blue-600">
                   <FontAwesomeIcon icon={faFacebook} />

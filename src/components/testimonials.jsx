@@ -7,7 +7,7 @@ import heroImage from '../assets/images/pic4.jpg';
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-12 bg-gray-100">
+    <section id="testimonials" className="py-12 bg-gray-100 pt-20">
       <div className="container mx-auto p-4 pt-6 md:p-6 lg:p-12 xl:p-24">
         <h2 className="text-2xl font-bold leading-tight text-green-700 mb-4 text-start">What Our Customers Say</h2>
         <div className="flex flex-wrap justify-center">

@@ -10,10 +10,12 @@ import Testimonials from './components/testimonials';
 import Blog from './components/blog';
 import Contact from './components/contactus';
 import GridLayout from 'react-grid-layout';
+import ScrollToTop from './components/scrolltotop';
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop /> {/* ✅ works here */}
       <Header />
       <Routes>
         <Route path="/" element={<Hero />} />

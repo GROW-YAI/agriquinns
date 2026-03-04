@@ -11,11 +11,13 @@ import Blog from './components/blog';
 import Contact from './components/contactus';
 import GridLayout from 'react-grid-layout';
 import ScrollToTop from './components/scrolltotop';
+import BoafoWidgetInitializer from './components/BoafoWidgetInitializer';
 
 function App() {
   return (
     <BrowserRouter>
     <ScrollToTop /> {/* ✅ works here */}
+    <BoafoWidgetInitializer />
       <Header />
       <Routes>
         <Route path="/" element={<Hero />} />
